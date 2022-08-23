@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+/* here to go */
+header{
+    height: 60px;
+    background-color: #2874f0;
+    color: white;
+}
+.logo{
+
+    display: inline-flex;
+    position: relative;
+    top: 1px;
+    left: 170px;
+}
+.plusicon a{
+    padding-top: 5px;
+    text-decoration: none;
+    position:absolute;
+    top: 31px;
+    left: 174px;
+    font-size: 11px;
+    font-style: italic;
+}
+.plusicon a img {
+width: 10px;
+}
+.search{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    left: 170px;
+}
+.search .search-text{
+    height: 33px;
+    width: 342px;
+    padding-left: 16px;
+    position: relative;
+    left: 170px;
+    bottom: 4px;
+    transform: translateX(-158px);
+    border-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    
+}
+
+a .fa-solid{
+    
+    color: #2874f0;
+    position: relative;
+    right: 30px;
+    bottom: 5px;
+}
+a .cart-icon {
+    color: #fff;
+    position: relative;
+    bottom: 5px;
+    transform: translateX(450px);
+}
+a .cart-icon span{
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.slider{
+    margin: 12px auto;
+    width:80vw;
+    overflow: hidden;
+    position: relative;
+    left: 5px;
+
+}
+.slider img{
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+    padding-left: 75px;
+}
+.cards{
+    display: flex;
+    overflow:scroll;
+    
+}
+.card-items{
+    display:inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 10px;
+}
+.card h2{
+    font-family:'lato', 'san-serif' ;
+}
+.container {
+    min-height: calc(100vh - 100px - 12vh);
+}
+
+footer {
+    height: 12vh;
+    background-color: #2874f0;
+    color: white;
+    font-family: 'lato', 'san-serif';
+}
