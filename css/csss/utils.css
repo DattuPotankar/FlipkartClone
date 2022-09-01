@@ -17,12 +17,25 @@
     right: 44px;
     height: 32px;
 }
+.btn:hover{
+    background-color: #2874f0;
+    color: #fff;
+}
 .headings {
     font-weight: 900;
     justify-content: center;
     position: relative;
     bottom: 2px;
     right: 5px;
+}
+#more{
+
+    font-weight: 900;
+    justify-content: center;
+    position: absolute;
+    bottom: 2px;
+    right: -75px;
+
 }
 
 .my-1 {
